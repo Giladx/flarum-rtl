@@ -1,11 +1,11 @@
 {
-    "name": "mitismirza/flarum-rtl",
+    "name": "giladx/flarum-rtl",
     "type": "flarum-extension",
     "description": "RTL Extension.",
     "keywords": ["RTL"],
     "license": "MIT",
     "require": {
-        "flarum/core": "^0.1.0-beta.5"
+        "flarum/core": "^0.1.0"
     },
     "extra": {
         "branch-alias": {
@@ -18,7 +18,11 @@
                 "backgroundColor": "#00247d",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
-            }
+         },
+        "flarum-locale": {
+            "code": "he",
+            "title": "Hebrew"
+	    }
         }
     }
 }
